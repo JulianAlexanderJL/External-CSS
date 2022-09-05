@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  margin: 40px 0;
+}
+
+.h1_pertama {
+  text-align: center;
+  color: #04aa6d;
+  font-size: 32px;
+}
+
+.h5_pertama {
+  text-align: center;
+  font-size: 18px;
+}
+
+.section_pertama {
+  padding: 80px 0px;
+  width: 100%;
+  background-color: #282a35;
+  color: white;
+  margin: 16px 0;
+}
+
+.div_pertama {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.h1_kedua {
+  font-size: 100px;
+}
+
+.h5_kedua {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.href_pertama {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.href_kedua {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.div_pertama {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.img_pertama {
+  width: 450px;
+}
+
+.section_kedua {
+  padding: 80px 0px;
+  width: 100%;
+  background-color: #d9eee1;
+  color: black;
+  margin: 16px 0;
+}
+.h1_kelima {
+  font-size: 100px;
+}
+
+.h5_ketiga {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.href_ketiga {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.href_keempat {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.footer_pertama {
+  text-align: center;
+  background-color: #282a35;
+  color: white;
+  padding: 40px 0;
+}
